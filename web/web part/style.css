@@ -1,0 +1,36 @@
+
+
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    /* background: blueviolet; */
+    position: relative;
+  }
+  
+  .content::before{
+    content: "";
+    display: block;
+    width: 30%;
+    float: left;
+    height: 200px;
+    background: rgb(0,212,255);
+    background: linear-gradient(135deg, rgba(0,212,255,1) 30%, rgba(9,9,121,0) 50%);
+    shape-outside: linear-gradient(135deg, rgba(0,212,255,1) 30%, rgba(9,9,121,0) 50%);
+    shape-image-threshold: .5;
+  }
+  .corner{
+      position: absolute;
+      bottom: 0%;
+      right: 0%;
+    content: "";
+    display: block;
+    width: 30%;
+    float: right;
+    height: 200px;
+    background: rgb(0,212,255);
+    background: linear-gradient(135deg, rgba(9,9,121,0) 50%, rgba(0,212,255,1) 70%);
+    shape-outside: linear-gradient(135deg, rgba(9,9,121,0) 50%, rgba(0,212,255,1) 60%);
+     shape-image-threshold: .8;
+
+  }
