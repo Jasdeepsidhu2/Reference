@@ -1,0 +1,300 @@
+ /* Those wide screens above 1280px */
+
+@media only screen and (max-width: 1281px) 
+{
+		/* Header Title */
+		
+#brand h1.site-title a {
+			
+font-size: 2.2em;
+		
+}
+  }
+
+ 
+
+ 
+/* Smaller than standard 960 (devices and browsers) */
+  
+@media only screen and (max-width: 959px) 
+{
+		
+#brand h1.site-title a
+ {
+
+			
+font-size: 1.6em;
+
+	}
+  }
+
+
+/* All Mobile Sizes (devices and browser) */
+  
+@media only screen and (max-width: 767px) {
+
+		
+		
+#sidebar ul li a {
+
+			
+font-size: 1.4em;
+
+		}
+
+
+
+
+CSSS
+
+body {
+	background: #add8ff;
+}
+
+
+.cat {
+	text-align: center;
+
+	font-size: 1.6em;
+	
+margin-bottom: 1em;
+	
+padding: 10px 20px;
+	
+border: 2px solid;
+	
+margin-top: -10px;
+	
+border-radius: 20px;
+}
+
+
+.hero {
+	
+background: linear-gradient( 180deg, rgba(0,0,0,0.25) 75%, rgba(0, 0, 0, 0.25)), url(http://35.239.237.26/wp-content/uploads/2018/11/jessica-ruscello-196422-unsplash.jpg);
+
+
+  background-size: cover;
+  background-position: center;
+  
+height: 600px;
+	
+
+	margin-bottom: -215px;
+	
+margin-top: -25px;
+}
+
+
+/* Content and Sidebar container *
+/
+#primary.row-fluid {
+	
+display: flex;
+	
+justify-content: center;
+}
+
+
+/* Content */
+
+#content {
+
+	margin: 0;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+ 
+ color: #409300;
+
+	margin-left: 50px;
+}
+
+
+#sidebar .side-title {
+	
+margin-top: 20px;
+}
+
+
+#sidebar ul {
+	margin-left: 20px;
+
+	margin-right: 30px;
+}
+
+
+#sidebar ul li {
+	
+list-style: none;
+	
+border: 2px solid;
+	
+margin: 15px 0;
+	
+padding: 5px 20px;
+
+	background: #6ab;
+	
+border-top-right-radius: 25px;
+}
+
+
+#sidebar ul li a {
+	
+font-size: 1.2em;
+	
+color: white;
+}
+
+
+#sidebar ul li a:hover {
+
+	color: greenyellow;
+}
+
+
+/* Header */
+header 
+.container {
+ height: 50px;	
+}
+
+
+/* Header Menu */
+/*
+ header .container ul li a {
+
+	font-size: 1.1e
+color: white;
+	
+padding: 5px 20px;
+}
+.post-categories a:hover 
+{
+	color: lightblue;
+}
+
+
+/* Post Image */
+
+article .the-content img {
+  max-width: 150px;
+	display: block;
+  height: auto;
+}
+
+
+/* Pagination */
+
+.next-page a, 
+.past-page a 
+
+	font-size: 1.6em;
+
+	padding: 10px 40px;
+
+	border-radius: 40px;
+
+
+	transition: 0.5s;
+	
+color: whitesmoke;
+	
+background: grey;
+}
+
+
+.next-page a:hover, 
+.past-page a:hover {
+	
+	color: grey;
+
+	background: whitesmoke;
+}
+
+
+/* #Media Queries
+================================================== */
+
+  /* Those wide screens above 1280px */
+  @media only screen and (max-width: 1281px) {
+		/* Header Title */
+		#brand h1.site-title a {
+			font-size: 2.2em;
+		}
+  }
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media only screen and (max-width: 959px) {
+		#brand h1.site-title a {
+			font-size: 1.6em;
+		}
+  }
+
+
+  /* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {
+		
+		#sidebar ul li a {
+			font-size: 1.4em;
+		}
+		
+		article .the-content {
+			font-size: 1.4em;
+			line-height: 1.6em;
+		}
+		
+		#brand h1.site-title a 				{
+			font-size: 3em;
+		}
+		
+		#sidebar ul li {
+			margin-right: 60px;
+		}
+		
+		#primary.row-fluid {
+			display: flex;
+			flex-direction: column;
+			flex-direction: column-reverse;
+		}
+		
+		.cat {
+			font-size: 1.8em;
+		}
+  }
+
+
+  @media only screen and (max-width: 480px) {
+		#sidebar ul li a {
+			font-size: 1.4em;
+		}
+		
+		article .the-content {
+			font-size: 1.4em;
+			line-height: 1.6em;
+	
+	}		
+		
+
+		#brand h1.site-title a 	
+			{
+		
+	font-size: 3.4em;
+	
+	}
+		
+		
+article .title a {
+		
+	font-size: 0.7em;
+	
+	}
+  }
+
+
+
+
